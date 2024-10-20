@@ -24,7 +24,7 @@ void M3508_Motor::canRxMsgCallback(uint8_t rx_data[8])
 {
     this->last_ecd_angle_=ecd_angle_;
     this->ecd_angle_=linearMapping((rx_data[0]<<8)|rx_data[1],0,8191,0,360);
-    this->rotate_speed_=linearMapping((rx_data[2]<<8)|rx_data[3],0,65535,0,469*this->ratio_);
+    this->rotate_speed_(rx_data[2]<<8)|rx_data[3];
     this->current_=linearMapping((rx_data[4]<<8)|rx_data[5]-16384,
     -16384,16384,-20,20);
     this->temp_=rx_data[6];
