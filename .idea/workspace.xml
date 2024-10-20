@@ -23,14 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b036158f-8b28-4f99-8d3e-bec191dea77d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CAN_Basic.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/CAN_Basic.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/can.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/can.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvprojx" afterDir="false" />
-    </list>
+    <list default="true" id="b036158f-8b28-4f99-8d3e-bec191dea77d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +65,11 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CAN_Basic.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAN_Basic" TARGET_NAME="CAN_Basic.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CAN_Basic" RUN_TARGET_NAME="CAN_Basic.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -89,7 +87,7 @@
       <workItem from="1728717282293" duration="19000" />
       <workItem from="1728717307210" duration="4573000" />
       <workItem from="1729320388284" duration="7180000" />
-      <workItem from="1729348730066" duration="12147000" />
+      <workItem from="1729348730066" duration="13653000" />
     </task>
     <servers />
   </component>
