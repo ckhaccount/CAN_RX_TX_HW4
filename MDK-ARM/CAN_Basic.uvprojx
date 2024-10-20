@@ -10,6 +10,7 @@
       <TargetName>CAN_Basic</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -399,11 +400,6 @@
               <FilePath>..\Core\Src\RxFifo0MsgPendingCallback.cpp</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Core/Src/main.c</FilePath>
-            </File>
-            <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/gpio.c</FilePath>
@@ -534,6 +530,16 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Motor.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\Motor.cpp</FilePath>
             </File>
           </Files>
         </Group>

@@ -24,6 +24,7 @@
 #include "gpio.h"
 #include "Motor.h"
 M3508_Motor motor;
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -98,7 +99,7 @@ int main(void)
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
   CAN_FilterTypeDef FilterConfig =
-    {
+      {
     FilterConfig.FilterIdHigh=0x0000,
     FilterConfig.FilterFIFOAssignment=CAN_FILTER_FIFO0,
     FilterConfig.FilterIdLow=0x0000,

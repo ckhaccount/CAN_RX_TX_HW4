@@ -24,7 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b036158f-8b28-4f99-8d3e-bec191dea77d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAN_Basic.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/CAN_Basic.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/can.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/can.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/CAN_Basic.uvprojx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Dell/Desktop/RM1012_UCANICAN-CAN_motor",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/2024_10_11-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +89,7 @@
       <workItem from="1728717282293" duration="19000" />
       <workItem from="1728717307210" duration="4573000" />
       <workItem from="1729320388284" duration="7180000" />
-      <workItem from="1729348730066" duration="4706000" />
+      <workItem from="1729348730066" duration="12147000" />
     </task>
     <servers />
   </component>
