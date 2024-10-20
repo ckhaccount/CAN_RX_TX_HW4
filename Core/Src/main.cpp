@@ -38,8 +38,8 @@ M3508_Motor motor;
 /* USER CODE BEGIN PD */
 CAN_RxHeaderTypeDef RxHeader;
 CAN_TxHeaderTypeDef TxHeader={0x200,0,CAN_ID_STD,CAN_RTR_DATA, 8, DISABLE};
-uint8_t RxData[8]; // CAN 数据�?大长度为 8 字节
-uint8_t TxData[8]={0x00,0x00,0x00,0x66,0x00,0x00,0x00,0x00};
+uint8_t RxData[8];
+uint8_t TxData[8]={0x00,0x00,0x00,0x80,0x00,0x00,0x00,0x00};
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -121,7 +121,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_CAN_AddTxMessage(&hcan1,&TxHeader,TxData,CAN_FILTER_FIFO0);
+    HAL_CAN_AddTxMessage(&hcan1,&TxHeader,TxData,reinterpret_cast<uint32_t*>(CAN_TX_MAILBOX0));
     HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
