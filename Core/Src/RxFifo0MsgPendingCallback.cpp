@@ -7,7 +7,7 @@ extern uint8_t RxData[8];
 extern M3508_Motor motor;
  void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
  {
-     if(hcan->Instance == CAN1)
+     if(hcan->Instance == CAN1&&RxHeader.StdId==0x201)
      {
          motor.canRxMsgCallback(RxData);
          std::vector<float> motor_message=motor.Get_motor_message();
