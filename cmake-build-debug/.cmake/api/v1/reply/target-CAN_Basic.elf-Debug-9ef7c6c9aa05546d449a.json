@@ -183,7 +183,7 @@
 			[
 				8,
 				9,
-				13
+				14
 			]
 		},
 		{
@@ -281,14 +281,14 @@
 				10,
 				11,
 				12,
-				14,
+				13,
 				15,
 				16,
 				17,
 				18,
 				19,
-				87,
-				88,
+				20,
+				26,
 				89,
 				90,
 				91,
@@ -303,7 +303,9 @@
 				100,
 				101,
 				102,
-				103
+				103,
+				104,
+				105
 			]
 		},
 		{
@@ -398,7 +400,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				20
+				21
 			]
 		}
 	],
@@ -469,11 +471,9 @@
 				5,
 				6,
 				7,
-				21,
 				22,
 				23,
-				25,
-				26,
+				24,
 				27,
 				28,
 				29,
@@ -502,8 +502,8 @@
 				52,
 				53,
 				54,
+				55,
 				56,
-				57,
 				58,
 				59,
 				60,
@@ -531,7 +531,9 @@
 				82,
 				83,
 				84,
-				85
+				85,
+				86,
+				87
 			]
 		},
 		{
@@ -550,8 +552,8 @@
 				17,
 				18,
 				19,
-				87,
-				88,
+				20,
+				26,
 				89,
 				90,
 				91,
@@ -566,18 +568,20 @@
 				100,
 				101,
 				102,
-				103
+				103,
+				104,
+				105
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				20,
-				24,
-				55,
-				86,
-				104
+				21,
+				25,
+				57,
+				88,
+				106
 			]
 		}
 	],
@@ -655,6 +659,12 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/main.cpp",
 			"sourceGroupIndex" : 1
@@ -720,6 +730,12 @@
 			"backtrace" : 1,
 			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,

@@ -248,6 +248,30 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
+Core/Src/main.obj: Core/Src/main.c.obj
+.PHONY : Core/Src/main.obj
+
+# target to build an object file
+Core/Src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.obj
+.PHONY : Core/Src/main.c.obj
+
+Core/Src/main.i: Core/Src/main.c.i
+.PHONY : Core/Src/main.i
+
+# target to preprocess a source file
+Core/Src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.i
+.PHONY : Core/Src/main.c.i
+
+Core/Src/main.s: Core/Src/main.c.s
+.PHONY : Core/Src/main.s
+
+# target to generate assembly for a file
+Core/Src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.s
+.PHONY : Core/Src/main.c.s
+
 Core/Src/main.obj: Core/Src/main.cpp.obj
 .PHONY : Core/Src/main.obj
 
@@ -423,6 +447,30 @@ Core/Startup/startup_stm32f427iihx.obj: Core/Startup/startup_stm32f427iihx.s.obj
 Core/Startup/startup_stm32f427iihx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
 .PHONY : Core/Startup/startup_stm32f427iihx.s.obj
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj
+
+# target to build an object file
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i
+
+# target to preprocess a source file
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s
+
+# target to generate assembly for a file
+Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_Basic.elf.dir\build.make CMakeFiles/CAN_Basic.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
+.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -859,6 +907,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/main.obj
+	@echo ... Core/Src/main.i
+	@echo ... Core/Src/main.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
@@ -878,6 +929,9 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f427iihx.obj
+	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj
+	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i
+	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
