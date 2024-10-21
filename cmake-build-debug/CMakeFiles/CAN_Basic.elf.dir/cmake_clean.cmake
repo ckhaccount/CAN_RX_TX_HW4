@@ -12,8 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/dma.c.obj.d"
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/gpio.c.obj.d"
-  "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.obj"
-  "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.cpp.obj"
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.cpp.obj.d"
   "CMakeFiles/CAN_Basic.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"

@@ -100,10 +100,10 @@ int main(void)
   CAN_FilterTypeDef FilterConfig =
         {
     FilterConfig.FilterIdHigh=0x0000,
-    FilterConfig.FilterFIFOAssignment=CAN_FILTER_FIFO0,
     FilterConfig.FilterIdLow=0x0000,
     FilterConfig.FilterMaskIdHigh=0x0000,
     FilterConfig.FilterMaskIdLow=0x0000,
+    FilterConfig.FilterFIFOAssignment=CAN_FILTER_FIFO0,
     FilterConfig.FilterBank=0,
     FilterConfig.FilterMode=CAN_FILTERMODE_IDMASK,
     FilterConfig.FilterScale=CAN_FILTERSCALE_32BIT,

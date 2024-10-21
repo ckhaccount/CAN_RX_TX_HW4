@@ -33,7 +33,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/STM32Project/CAN_Basic/Core/Src/can.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/can.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/can.c.obj.d"
   "D:/STM32Project/CAN_Basic/Core/Src/dma.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/dma.c.obj.d"
   "D:/STM32Project/CAN_Basic/Core/Src/gpio.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/gpio.c.obj.d"
-  "D:/STM32Project/CAN_Basic/Core/Src/main.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/main.c.obj.d"
   "D:/STM32Project/CAN_Basic/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/STM32Project/CAN_Basic/Core/Src/stm32f4xx_it.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "D:/STM32Project/CAN_Basic/Core/Src/syscalls.c" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/CAN_Basic.elf.dir/Core/Src/syscalls.c.obj.d"
